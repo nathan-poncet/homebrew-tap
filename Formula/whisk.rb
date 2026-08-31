@@ -1,8 +1,8 @@
 class Whisk < Formula
   desc "Clipboard manager for macOS with a Liquid Glass panel"
   homepage "https://github.com/nathan-poncet/whisk"
-  url "https://github.com/nathan-poncet/whisk/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "b044e69e69580fd2f77e3d0a852b8269f3accb5c6fd09ad103cf7255b8fdc748"
+  url "https://github.com/nathan-poncet/whisk/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "4fc9d808315c3a81fb0f31777a9007fee2e94293e61a054156601c330b3857cc"
   license "MIT"
   head "https://github.com/nathan-poncet/whisk.git", branch: "main"
 
