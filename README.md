@@ -3,7 +3,8 @@
 Personal [Homebrew](https://brew.sh) tap.
 
 ```sh
-brew install --cask --no-quarantine nathan-poncet/tap/whisk
+brew install --cask nathan-poncet/tap/whisk
+xattr -d com.apple.quarantine /Applications/Whisk.app
 ```
 
 | Cask | Description |
@@ -11,4 +12,4 @@ brew install --cask --no-quarantine nathan-poncet/tap/whisk
 | [`whisk`](Casks/whisk.rb) | Clipboard manager for macOS with a Liquid Glass panel — [nathan-poncet/whisk](https://github.com/nathan-poncet/whisk) |
 
 Casks are bumped automatically by each project's release workflow.
-(`--no-quarantine` is only needed until Whisk ships notarized builds.)
+(The `xattr` step is only needed until Whisk ships notarized builds.)

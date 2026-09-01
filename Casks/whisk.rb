@@ -12,7 +12,7 @@ cask "whisk" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Whisk.app"
 
@@ -23,9 +23,7 @@ cask "whisk" do
 
   caveats <<~EOS
     Whisk is not notarized yet: macOS quarantines the downloaded app and
-    refuses to open it on first launch. Either install with
-      brew install --cask --no-quarantine nathan-poncet/tap/whisk
-    or clear the flag after installing:
+    refuses to open it on first launch. Clear the flag after installing:
       xattr -d com.apple.quarantine /Applications/Whisk.app
 
     Direct paste into the previously focused app needs Accessibility
