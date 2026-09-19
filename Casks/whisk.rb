@@ -22,10 +22,6 @@ cask "whisk" do
   ]
 
   caveats <<~EOS
-    Whisk is not notarized yet: macOS quarantines the downloaded app and
-    refuses to open it on first launch. Clear the flag after installing:
-      xattr -d com.apple.quarantine /Applications/Whisk.app
-
     Direct paste into the previously focused app needs Accessibility
     access (System Settings → Privacy & Security → Accessibility).
   EOS
