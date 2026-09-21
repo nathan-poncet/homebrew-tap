@@ -1,6 +1,6 @@
 cask "whisk" do
-  version "0.11.0"
-  sha256 "ca87e4fd9c8a7a28cd7624dc334d360340dcf9c594f2a2ce63973c3a595e8213"
+  version "1.0.0"
+  sha256 "d7a127120f5dcb4f03d9375dcaa73def1828c4d3d7e283f1d2a113f85dd04a56"
 
   url "https://github.com/nathan-poncet/whisk/releases/download/v#{version}/Whisk.dmg"
   name "Whisk"
